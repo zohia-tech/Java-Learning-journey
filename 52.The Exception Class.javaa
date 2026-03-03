@@ -1,0 +1,9 @@
+public class ExceptionClassExample {
+    public static void main(String[] args) {
+        try {
+            int a = 10 / 0;
+        } catch (Exception e) { // Exception class can catch all exceptions
+            System.out.println("Caught by Exception class: " + e);
+        }
+    }
+}
